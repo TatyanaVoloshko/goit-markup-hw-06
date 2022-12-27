@@ -1045,7 +1045,7 @@ color: #FFFFFF;
 
 .footer-form-btn {
     display: flex; 
-    align-self: center;
+    align-items: center;
     width: 165px;
     height: 40px;
     font-family: 'Roboto', sans-serif;

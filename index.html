@@ -350,7 +350,25 @@
         </li>
       </ul>
     </div>
+    <div class="footer-container-form">
+    <p class="footer-form-imput-desc">Subscribe</p>
+    <form class="footer-form">
+        <input class="footer-form-input" 
+        type="email" 
+        name="user-email" 
+        required
+        pattern="\S+@\S+\.\S+" 
+        title="example@mail.com"
+        placeholder="E-mail">
+        <button type="submit" class="footer-form-btn">Subscribe
+          <svg class="footer-form-input-icon" width="24px" height="20px">
+            <use href="./images/sprite.svg#send"></use>
+          </svg>
+        </button>
+     </form>
+  </div>
     </div>
+    
   </footer>
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
